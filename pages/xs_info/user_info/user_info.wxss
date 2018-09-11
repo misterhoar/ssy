@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0;
+}
+.table {
+ 
+  padding-bottom: 20rpx;
+  border:1px solid #ccc;
+  border-radius: 15rpx;
+  font-size: 30rpx;
+  width:90%;
+  margin: 0 auto;
+   margin-top:25rpx; 
+   padding-left: 20rpx;
+}
+.table .team_name{
+  margin-top: 15rpx;
+  color:#ccc;
+}
+.table .info{
+  color:#000;
+  margin-bottom: 12px;
+}
+
+.table .line{
+  border-bottom:1px solid #ccc;
+}

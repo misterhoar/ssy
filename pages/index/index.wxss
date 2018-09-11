@@ -1,0 +1,56 @@
+/**index.wxss**/
+.container{
+  display: flex;
+  flex-direction: column;
+  padding:0;
+}
+.container .banner{
+  width:100%;
+}
+.container .banner image{
+  width:100%;
+}
+.container .content{
+  width:100%;
+  padding-left:165rpx;
+  margin-top:35rpx;
+}
+.container .content .title{
+  margin-top: 25rpx;
+  font-size: 35rpx;
+  font-weight: bolder;
+  margin-bottom:20rpx;
+}
+.container .content .time{
+  color:#ccc;
+  font-size: 30rpx;
+  margin-bottom:15rpx;
+}
+.container .content .text{
+  margin-bottom:15rpx;
+  font-size: 30rpx;
+}
+.container .btn{
+  width:100%;
+  align-items: center;
+  padding-left: 165rpx;
+  margin-top:100rpx;
+}
+.container .btn .btn-item{
+  width:185rpx;
+  height: 75rpx;
+  line-height: 75rpx;
+  background: #46a4e3;
+  display: inline-block;
+  margin-right: 35rpx;
+  text-align: center;
+  font-size: 33rpx;
+  color:#fff;
+  border-radius: 20rpx;
+}
+.container .btn .btn-item image{
+  width:32rpx;
+  height: 32rpx;
+  display: inline-block;
+  margin-right: 8rpx;
+}

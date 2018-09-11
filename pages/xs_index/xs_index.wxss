@@ -1,0 +1,60 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0;
+}
+.banner{
+  width:100%;
+}
+.slide-image{
+  width:100%;
+}
+.container .content{
+  width:100%;
+  padding-left:65rpx;
+  margin-top:35rpx;
+}
+.container .content .title{
+  margin-top: 25rpx;
+  font-size: 35rpx;
+  margin-bottom:20rpx;
+}
+.container .content .time{
+  color:#ccc;
+  font-size: 30rpx;
+  margin-bottom:15rpx;
+}
+
+
+
+
+
+/* bar */
+.icon{
+  width:54rpx;
+  height: 54rpx;
+}
+.tabBar{
+  width:100%;
+  position: fixed;
+  z-index: 1000;
+  bottom:0;
+  padding:10rpx;
+  margin-left:-4rpx;
+  background:#fff;
+  font-size:20rpx;
+  color:#8A8A8A;
+  box-shadow: 6rpx 6rpx 6rpx 6rpx #aaa;
+}
+
+ .tabBar-item{
+  float:left;
+  width:33.3%;
+  text-align: center;
+  overflow: hidden;
+}
+/*当前字体颜色*/
+.tabBartext{
+  color:red;
+}

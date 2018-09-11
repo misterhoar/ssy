@@ -1,0 +1,23 @@
+<view class="container">
+   <!-- banner -->
+   <view class='banner'>
+        <swiper indicator-dots="{{indicatorDots}}"
+            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <block wx:for="{{imgUrls}}">
+          <swiper-item>
+              <image src="{{item}}" class="slide-image"/>
+          </swiper-item>
+          </block>
+        </swiper>
+   </view>
+<!-- banner -->
+<!-- content -->
+     <view class="content">
+         <view class="title">2018世界杯预选赛亚洲赛区</view>
+         <view class="time">开始时间： 2018年6月24日</view>
+     </view>
+<!-- content -->
+</view>
+
+  <import src="../../template/template.wxml" />
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}" />  

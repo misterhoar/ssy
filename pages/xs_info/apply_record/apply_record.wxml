@@ -1,0 +1,42 @@
+<view class="container">
+    <view class="table">
+  <view class="tr">
+    <view class="th">参赛事项</view>
+    <view class="th">报名时间</view>
+  </view>
+  <view class="tr">
+      <view class="th member">赛事1</view>
+      <view class="th score">2018.11.1</view>
+  </view>
+  <view class="tr">
+      <view class="th member">赛事2</view>
+      <view class="th score">2018.11.2</view>
+  </view>
+  <view class="tr">
+      <view class="th member">赛事3</view>
+      <view class="th score">2018.11.3</view>
+  </view>
+  <view class="tr">
+      <view class="th member">赛事4</view>
+      <view class="th score">2018.11.4</view>
+  </view>
+  <view class="tr">
+      <view class="th member">赛事5</view>
+      <view class="th score">2018.11.5</view>
+  </view>
+  <view class="tr">
+      <view class="th member">赛事6</view>
+      <view class="th score">2018.11.6</view>
+  </view>
+  <view class="tr">
+      <view class="th member">赛事7</view>
+      <view class="th score">2018.11.7</view>
+  </view>
+  <view class="tr line">
+      <view class="th member">赛事8</view>
+      <view class="th score">2018.11.8</view>
+  </view>
+</view>
+     
+</view>
+

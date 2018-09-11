@@ -1,0 +1,121 @@
+.swiper-tab {
+  width: 100%;
+  text-align: center;
+  line-height: 80rpx;
+  background-color:white;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 50%;
+  color: #46a4e3;
+  border-bottom: 0rpx;
+}
+
+.on {
+  background: #c0e0f5;
+}
+
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-box view {
+  text-align: center;
+}
+.weui-cells__title{
+  padding:0 30rpx;
+  width:90%;
+  
+}
+
+.table {
+  margin-top:25rpx;
+  padding-bottom: 20rpx;
+  border:1px solid #ccc;
+  border-radius: 15rpx;
+  font-size: 30rpx;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.bg-w{
+  background:#fff;
+  border-bottom: 1px solid #ccc;
+}
+.bg-g{
+  background: #E6F3F9;
+}
+.th {
+  width: 40%;
+  justify-content: center;
+  color: #ccc;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+.btn{
+  width:50%;
+  height:65rpx;
+  line-height: 65rpx;
+  text-align: center;
+  margin: 0 auto;
+  background: #46a4e3;
+  color:#fff;
+  font-size: 35rpx;
+  border-radius: 15rpx;
+  margin-top:25rpx;
+}
+.table .title{
+  color:#ccc;
+  border-bottom: 1px solid #ccc;
+  width:100%;
+}
+.table .title .group{
+  font-weight: bold;
+  color:#000;
+}
+.table .title .location{
+  margin-left: 54rpx;
+}
+.table .line{
+  border:none;
+}
+
+.tr2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+.td2 {
+    width:50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.th2 {
+  width: 50%;
+  justify-content: center;
+  color: #ccc;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}

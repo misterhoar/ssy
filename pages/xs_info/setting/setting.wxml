@@ -1,0 +1,22 @@
+<view class="container">
+    <view class='item'>
+      <image src='../../images/avatar.png'></image>
+    </view>    
+    <view class='item'>
+      <image src='../../images/shouji.png'></image>
+      item
+    </view>   
+    <view class='item'>
+      <image src='../../images/remind.png'></image>
+      item
+    </view>   
+    <view class='item'>
+      <image src='../../images/help.png'></image>
+    </view>   
+    <view class='item'>
+      <image src='../../images/service.png'></image>
+      item
+    </view>   
+    <view class='btn'>退出登陆</view>
+</view>
+

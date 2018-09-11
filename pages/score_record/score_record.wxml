@@ -1,0 +1,36 @@
+<!-- table1 -->
+ <view class="table">
+  <view class="tr bg-w">
+    <view class="th">选手姓名</view>
+    <view class="th">所得分数</view>
+    <view class="th">评语</view>
+  </view>
+  <view class="tr">
+      <view class="td">选手1</view>
+      <view class="td">98分</view>
+      <view class="td" bindtap='pingyu'>评语</view>
+  </view>
+  <view class="tr">
+      <view class="td">选手1</view>
+      <view class="td">98分</view>
+      <view class="td" bindtap='pingyu'>评语</view>
+  </view>
+  <view class="tr">
+      <view class="td">选手1</view>
+      <view class="td">98分</view>
+      <view class="td" bindtap='pingyu'>评语</view>
+  </view>
+  <view class="tr">
+      <view class="td">选手1</view>
+      <view class="td">98分</view>
+      <view class="td" bindtap='pingyu'>评语</view>
+  </view>
+  <view class="tr">
+      <view class="td">选手1</view>
+      <view class="td">98分</view>
+      <view class="td" bindtap='pingyu'>评语</view>
+  </view>
+ </view>
+ <!-- table1 -->
+<import src="../../template/template.wxml" />
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}" />  

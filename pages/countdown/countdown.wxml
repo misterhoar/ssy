@@ -1,0 +1,25 @@
+
+ <view class="table">
+   <view class="tr">
+    <view class="th">赛事分组</view>
+    <view class="th "></view>        
+   </view>
+   <view class="tr">
+    <view class="th group">A组</view>
+    <view class="th "></view>        
+  </view>
+  <view class="tr">
+    <view class="th">选手姓名</view>
+   
+    <view class="th">倒计时</view>
+  </view>
+  <view class="tr">
+      <view class="th member">选手1</view>
+      <view class="th btn_red">10:37</view>
+  </view>
+  <view class="tr line">
+      <view class="th member">选手2</view>
+      <view class="th btn_green">未开始</view>
+  </view>
+ </view>
+

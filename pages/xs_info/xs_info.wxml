@@ -1,0 +1,64 @@
+<view class='container'>
+     <view class='top'>
+         <view class='set' bindtap='setting'><image src='../../images/set.png'></image></view>
+         <view class="avatar"><image src='../../images/avatar.jpg'></image></view>
+         <view class="name">treasure</view>
+         <view class="info">
+            <view class='info_item' bindtap='userinfo'>
+                 <image src='../../images/addressbook.png'></image>
+                 <view class="icon_info">身份信息</view>
+            </view>
+            <view class='info_item' bindtap='apply_record'>
+                 <image src='../../images/activity.png'></image>
+                 <view class="icon_info">报名记录</view>
+            </view>
+            <view class='info_item' bindtap='match_record'>
+                 <image src='../../images/clock.png'></image>
+                 <view class="icon_info">参赛记录</view>
+            </view>
+         </view>
+         <view class='more'>
+            <view class='more_item' bindtap='all_match'>
+                <image class='icon' src='../../images/saishi.png'></image>
+                 <view class='more_info'>全部赛事</view> 
+            </view>
+            <view class='more_item'>
+                <image class='icon' src='../../images/call.png'></image>
+                 <view class='more_info'>联系客服</view> 
+            </view>
+         </view>
+     </view>
+
+<view class="table">
+  <view class="tr">
+    <view class="th">更多赛事</view>
+    <view class="th">报名截止时间</view>
+  </view>
+  <view class="tr">
+      <view class="th member">赛事1</view>
+      <view class="th score">2018.11.1</view>
+  </view>
+  <view class="tr">
+      <view class="th member">赛事1</view>
+      <view class="th score">2018.11.1</view>
+  </view>
+  <view class="tr">
+      <view class="th member">赛事1</view>
+      <view class="th score">2018.11.1</view>
+  </view>
+  <view class="tr">
+      <view class="th member">赛事1</view>
+      <view class="th score">2018.11.1</view>
+  </view>
+  <view class="tr line">
+      <view class="th member">赛事1</view>
+      <view class="th score">2018.11.1</view>
+  </view>
+</view>
+</view>
+
+
+
+
+  <import src="../../template/template.wxml" />
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}" />  

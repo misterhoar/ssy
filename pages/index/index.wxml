@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+     <!-- banner -->
+     <view class="banner">
+          <image src='http://pa5iwwqa4.bkt.clouddn.com/banner.png'></image>
+     </view>
+     <!-- banner -->
+     <!-- content -->
+     <view class="content">
+         <view class="title">2018世界杯预选赛亚洲赛区</view>
+         <view class="time">开始时间： 2018年6月24日</view>
+         <view class="text">欢迎大家前来参加</view>
+         <view class="text">2018世界杯预选赛亚洲赛区</view>
+         <view class="text">请登记预定酒店并领取参赛资料</view>
+     </view>
+     <!-- content -->
+     <!-- btn -->
+     <view class="btn">   
+        <view class="btn-item" bindtap='activity'><image src='../../images/icon1.png'></image>活动介绍</view>
+        <view class="btn-item" bindtap='draw'><image src='../../images/icon2.png'></image>抽签</view>
+        <view class="btn-item" bindtap='countdown'><image src='../../images/icon3.png'></image>倒计时</view>
+     </view>
+     <!-- btn -->
+</view>

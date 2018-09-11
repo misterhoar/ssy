@@ -1,0 +1,49 @@
+<!-- table1 -->
+ <view class="table">
+  <view class="tr bg-w">
+    <view class="th">参赛事项</view>
+    <view class="th">所得分数</view>
+    <view class="th ">参赛时间</view>
+  </view>
+  <view class="tr">
+      <view class="td">赛事1</view>
+      <view class="td">98</view>
+      <view class="td">2018.11.1</view>
+  </view>
+  <view class="tr">
+      <view class="td">赛事2</view>
+      <view class="td">98</view>
+      <view class="td">2018.11.2</view>
+  </view>
+  <view class="tr">
+      <view class="td">赛事3</view>
+      <view class="td">98</view>
+      <view class="td">2018.11.3</view>
+  </view>
+  <view class="tr">
+      <view class="td">赛事4</view>
+      <view class="td">98</view>
+      <view class="td">2018.11.4</view>
+  </view>
+  <view class="tr">
+      <view class="td">赛事5</view>
+      <view class="td">98</view>
+      <view class="td">2018.11.5</view>
+  </view>
+  <view class="tr">
+      <view class="td">赛事6</view>
+      <view class="td">98</view>
+      <view class="td">2018.11.6</view>
+  </view>
+  <view class="tr">
+      <view class="td">赛事7</view>
+      <view class="td">98</view>
+      <view class="td">2018.11.7</view>
+  </view>
+  <view class="tr line">
+      <view class="td">赛事8</view>
+      <view class="td">98</view>
+      <view class="td">2018.11.8</view>
+  </view>
+ </view>
+ <!-- table1 -->

@@ -1,0 +1,14 @@
+<view class='table'>
+   <view class='input_score'>输入得分
+       <view class='score'>
+         <input placeholder="分数" type='number' auto-focus/>
+       </view>
+   </view>
+   <view class='textarea'>填写评语</view>
+   <view class="section">
+    <form bindsubmit="bindFormSubmit">
+    <textarea placeholder="请输入您的评语" name="textarea"/>
+    <button form-type="submit"> 提交 </button>
+    </form>
+    </view>
+</view>

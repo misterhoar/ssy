@@ -1,0 +1,9 @@
+<view class="container">
+   <!-- <image src='http://pa5iwwqa4.bkt.clouddn.com/time.png'></image> -->
+   <text class="time">10:00</text>
+   <view class="btn">
+      <view class="btn-item"><image src='../../images/time_icon1.png'></image></view>
+      <view class="btn-item"><image src='../../images/time_icon2.png'></image></view>
+      <view class="btn-item"><image src='../../images/time_icon3.png'></image></view> 
+   </view>
+</view>

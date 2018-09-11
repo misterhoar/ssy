@@ -1,0 +1,47 @@
+<view class="container">
+     <view class='top'>
+         <view class="top_item">
+              <view>去掉最高分</view>
+              <view>98</view>
+         </view>
+         <view class="top_item">
+              <view>去掉最低分</view>
+              <view>75</view>
+         </view>
+         <view class="top_item">
+              <view>最终得分</view>
+              <view>89</view>
+         </view>
+     </view>
+
+<view class="table">
+  <view class="tr">
+    <view class="th">评委名称</view>
+    <view class="th">所打分数</view>
+  </view>
+  <view class="tr">
+      <view class="th member">评委1</view>
+      <view class="th score">98分</view>
+  </view>
+  <view class="tr">
+      <view class="th member">评委2</view>
+      <view class="th score">97分</view>
+  </view>
+  <view class="tr">
+      <view class="th member">评委3</view>
+      <view class="th score">96分</view>
+  </view>
+</view>
+     
+</view>
+
+
+
+
+
+
+
+
+
+  <import src="../../template/template.wxml" />
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}" />  

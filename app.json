@@ -1,0 +1,38 @@
+{
+  "pages":[
+    
+    "pages/xs_info/setting/setting",
+    "pages/xs_index/xs_index",
+    "pages/xs_score/xs_score",
+    "pages/xs_info/xs_info",
+    "pages/xs_info/user_info/user_info",
+    "pages/xs_info/apply_record/apply_record",
+    "pages/xs_info/match_record/match_record",
+    "pages/xs_info/all_match/all_match",
+   
+    
+    
+    
+    
+    
+   
+
+    "pages/pw_index/pw_index",
+    "pages/player/player",
+    "pages/score_record/score_record",
+   
+    "pages/index/index",
+    "pages/activity/activity",
+    "pages/draw/draw",
+    "pages/countdown/countdown",
+    "pages/countdown1/countdown1",
+    
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#46a4e3",
+    "navigationBarTitleText": "赛事管理",
+    "navigationBarTextStyle":"white"
+  }
+}
